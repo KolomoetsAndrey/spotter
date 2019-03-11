@@ -10,9 +10,11 @@ body, html {
     text-transform: uppercase;
 }
 
+
+
 .main {
-    background: url(../images/main-bg.jpg) no-repeat center top;
-    background-size: 100%;
+    background: url(../images/main-bg.jpg) no-repeat center top #000000;
+    background-size: auto;
     height: 670px;
     color: #ffffff;
 
@@ -24,7 +26,8 @@ body, html {
                 transition: all .2s;
 
                 &:hover {
-                    color: #8d0916;
+                    color: #ff623a;
+                    border-bottom: 1px solid #8d0916;
                 }
             }
         }
@@ -42,12 +45,122 @@ body, html {
     }
 
     .slogan {
-        margin-top: 180px;
+        margin-top: 17%;
         background: #0000008c;
         padding: 35px 15px;
+        border-left: 4px solid #ff623a;
+        border-right: 4px solid #ff001b;
 
         p {
             margin-top: 25px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.gpsmonitoring {
+    h2 {
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: 0px 5px 5px rgba(0,0,0,0.1), 10px 10px 5px rgba(0,0,0,0.05), -10px 10px 5px rgba(0,0,0,0.05);
+    }
+
+    .cards {
+        padding: 15px;
+
+        h5 {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        p {
+            height: 110px;
+        }
+
+        a {
+            color: #585858;
+            font-weight: 500;
+            padding: 10px 25px;
+            border-left: 4px solid #ff623a;
+            border-right: 4px solid #ff001b;
+            transition: all 0.2s;
+            text-shadow: 0px 5px 5px rgba(0,0,0,0.1), 10px 10px 5px rgba(0,0,0,0.05), -10px 10px 5px rgba(0,0,0,0.05);
+
+            &:hover {
+                text-decoration: none;
+                color: #000000;
+                border-right: 4px solid #ff623a;
+                border-left: 4px solid #ff001b;
+            }
+        }
+    }
+
+    i {
+        font-size: 35px;
+        color: #909090;
+    }
+
+}
+
+.test {
+    background: #f3f3f3;
+
+    h4 {
+        text-transform: uppercase;
+        text-shadow: 0px 5px 5px rgba(0,0,0,0.1), 10px 10px 5px rgba(0,0,0,0.05), -10px 10px 5px rgba(0,0,0,0.05);
+    }
+
+    img {
+        width: 100%;
+        padding: 40px;
+    }
+}
+
+.works {
+    h2 {
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: 0px 5px 5px rgba(0,0,0,0.1), 10px 10px 5px rgba(0,0,0,0.05), -10px 10px 5px rgba(0,0,0,0.05);
+    }
+
+    .nav-pills {
+
+        .nav-link {
+            background-color: transparent;
+            border-radius: 0;
+            color: #585858;
+        }
+
+        .nav-link.active {
+            color: #000000;
+            background-color: transparent;
+            font-weight: 500;
+            border-left: 4px solid #ff623a;
+            border-right: 4px solid #ff001b;
+            transition: all 0.2s;
+            text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+        }
+    }
+
+    .the-content {
+        border-left: 1px solid #ff623a;
+        margin-left: -15px;
+        padding-left: 45px;
+    }
+
+    .tab-content {
+        padding-top: 7px;
+    }
+
+    .tab-pane {
+        img {
+            width: 50%;
+        }
+
+        .names {
+            font-weight: 700;
+            color: #585858;
         }
     }
 }

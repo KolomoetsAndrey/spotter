@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--JS-->
+    <script src="js/util.js"></script>
 </head>
 <body>
     <section class="main" id="main">
@@ -57,7 +59,7 @@
           </nav>
 
           <div class="container">
-              <div class="row justify-content-md-center">
+              <div class="row justify-content-center">
                   <div class="col-9 centered slogan">
                       <h1>Мониторинг транспорта -<br>эффективное ведение бизнеса</h1>
                       <p>Онлайн мониторинг транспорта и контроль топлива в любой точке мира</p>
@@ -66,21 +68,142 @@
           </div>
     </section>
 
-    <section class="about titles" id="about-title">
+    <section class="gpsmonitoring" id="gpsmonitoring">
         <div class="container">
-            <div class="row">
-
+            <div class="row justify-content-center">
+                <div class="col-12 pt-5 pb-4 centered">
+                    <h2>
+                        Возможности
+                    </h2>
+                </div>
+            </div>
+            <div class="row article-demo pb-5">
+                <div class="col-md-4 cards centered">
+                    <i class="fas fa-desktop"></i>
+                    <h5 class="mt-3">
+                        Программное обеспечение
+                    </h5>
+                    <p class="mt-4">
+                        Для GPS мониторинга транспорта и контроля топлива наша компания использует программное обеспечение Wialon Local.
+                    </p>
+                    <a href="#">подробнее</a>
+                </div>
+                <div class="col-md-4 cards centered">
+                    <i class="fas fa-users"></i>
+                    <h5 class="mt-3">
+                        Вход для клиентов
+                    </h5>
+                    <p class="mt-4">
+                        Для ознакомления с системой мониторинга, используйте логин: demo, пароль: demo.
+                    </p>
+                    <a href="#">войти</a>
+                </div>
+                <div class="col-md-4 cards centered">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h5 class="mt-3">
+                        Удаленный контроль датчиков
+                    </h5>
+                    <p class="mt-4">
+                        Подключение к CAN даёт возможность мониторить больше параметров автомобиля.
+                    </p>
+                    <a href="#">подробнее</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="test" id="test">
         <div class="container">
-            <div class="row">
-
+            <div class="row pt-5 pb-5">
+                <div class="col-md-8">
+                    <h4>
+                        Оформить тест системы мониторинга:
+                    </h4>
+                    <p>
+                        Воспользуйтесь возможностью бесплатной установки оборудования, сроком в две недели, для ознакомления с системой мониторинга Wialon Local.
+                    </p>
+                    <p>
+                        Для этого Вам необходимо всего лишь связаться с нами и оформить заявку.
+                        После чего наши специалисты:
+                    </p>
+                    <ul>
+                        <li>создают учетную запись</li>
+                        <li>устанавливают оборудование</li>
+                        <li>проводят консультацию по работе с системой мониторинга</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/placeholder-macbook.png" alt="">
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="works" id="works">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 pt-5 pb-4 centered">
+                    <h2>
+                        Сервисы
+                    </h2>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-md-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Контроль легкового транспорта</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Контроль персонала</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Контроль грузового транспорта</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Контроль качества вождения</a>
+                    <a class="nav-link" id="v-pills-mopr-tab" data-toggle="pill" href="#v-pills-more" role="tab" aria-controls="v-pills-more" aria-selected="false">Предлагаемое оборудование</a>
+                    </div>
+                </div>
+                <div class="col-md-9 the-content">
+                    <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <h5>Контроль легкового транспорта</h5>
+                        <p>Имея многолетний опыт работы в сфере GPS-мониторинга, можем предложить следующие варианты для контроля легкого транспорта:</p>
+                        <div class="row justify-content-center">
+                            <div class="col-5 centered">
+                                <img src="images/Bi868TREK.png" alt="">
+                                <p class="names">BiTrek 868 (Украина)</p>
+                            </div>
+                            <div class="col-5 centered">
+                                <img src="images/BI520RTREK.png" alt="">
+                                <p class="names">BiTrek 520 (Украина)</p>
+                            </div>
+                            <div class="col-5 centered">
+                                <img src="images/FMA120.png" alt="">
+                                <p class="names">Teltonika FM1120 (Литва)</p>
+                            </div>
+                            <div class="col-5 centered">
+                                <img src="images/FMA120.png" alt="">
+                                <p class="names">Teltonika FM1110 (Литва)</p>
+                            </div>
+                        </div>
+                        <p>
+                            Тестируя оборудования различных торговых марок, остановили свой выбор и рекомендуем потребителю трекера таких извесных производителей, как BiTrek  (Украина) и Teltonika (Литва). Все приборы показали себя одинаково хорошо в работе, пример прорисовки трека можете посмотреть на скриншотах ниже.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-more" role="tabpanel" aria-labelledby="v-pills-more-tab">
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 

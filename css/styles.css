@@ -9,8 +9,8 @@ html {
   text-transform: uppercase;
 }
 .main {
-  background: url(../images/main-bg.jpg) no-repeat center top;
-  background-size: 100%;
+  background: url(../images/main-bg.jpg) no-repeat center top #000000;
+  background-size: auto;
   height: 670px;
   color: #ffffff;
 }
@@ -20,7 +20,8 @@ html {
   transition: all .2s;
 }
 .main .navbar-dark .navbar-nav .nav-link:hover {
-  color: #8d0916;
+  color: #ff623a;
+  border-bottom: 1px solid #8d0916;
 }
 .main .navbar {
   padding: 10px 25px;
@@ -30,10 +31,93 @@ html {
   width: 250px;
 }
 .main .slogan {
-  margin-top: 180px;
+  margin-top: 17%;
   background: #0000008c;
   padding: 35px 15px;
+  border-left: 4px solid #ff623a;
+  border-right: 4px solid #ff001b;
 }
 .main .slogan p {
   margin-top: 25px;
+  margin-bottom: 0;
+}
+.gpsmonitoring h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.gpsmonitoring .cards {
+  padding: 15px;
+}
+.gpsmonitoring .cards h5 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.gpsmonitoring .cards p {
+  height: 110px;
+}
+.gpsmonitoring .cards a {
+  color: #585858;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-left: 4px solid #ff623a;
+  border-right: 4px solid #ff001b;
+  transition: all 0.2s;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.gpsmonitoring .cards a:hover {
+  text-decoration: none;
+  color: #000000;
+  border-right: 4px solid #ff623a;
+  border-left: 4px solid #ff001b;
+}
+.gpsmonitoring i {
+  font-size: 35px;
+  color: #909090;
+}
+.test {
+  background: #f3f3f3;
+}
+.test h4 {
+  text-transform: uppercase;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.test img {
+  width: 100%;
+  padding: 40px;
+}
+.works h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.works .nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  color: #585858;
+}
+.works .nav-pills .nav-link.active {
+  color: #000000;
+  background-color: transparent;
+  font-weight: 500;
+  border-left: 4px solid #ff623a;
+  border-right: 4px solid #ff001b;
+  transition: all 0.2s;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 10px 10px 5px rgba(0, 0, 0, 0.05), -10px 10px 5px rgba(0, 0, 0, 0.05);
+}
+.works .the-content {
+  border-left: 1px solid #ff623a;
+  margin-left: -15px;
+  padding-left: 45px;
+}
+.works .tab-content {
+  padding-top: 7px;
+}
+.works .tab-pane img {
+  width: 50%;
+}
+.works .tab-pane .names {
+  font-weight: 700;
+  color: #585858;
 }
