@@ -55,7 +55,8 @@ html {
   font-size: 16px;
 }
 .gpsmonitoring .cards p {
-  height: 110px;
+  min-height: 110px;
+  height: auto;
 }
 .gpsmonitoring .cards a {
   color: #585858;
