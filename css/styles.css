@@ -2,3 +2,38 @@ body,
 html {
   font-family: 'Montserrat', sans-serif;
 }
+.centered {
+  text-align: center;
+}
+.slogan {
+  text-transform: uppercase;
+}
+.main {
+  background: url(../images/main-bg.jpg) no-repeat center top;
+  background-size: 100%;
+  height: 670px;
+  color: #ffffff;
+}
+.main .navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  transition: all .2s;
+}
+.main .navbar-dark .navbar-nav .nav-link:hover {
+  color: #8d0916;
+}
+.main .navbar {
+  padding: 10px 25px;
+  background: #111111;
+}
+.main .navbar-brand img {
+  width: 250px;
+}
+.main .slogan {
+  margin-top: 180px;
+  background: #0000008c;
+  padding: 35px 15px;
+}
+.main .slogan p {
+  margin-top: 25px;
+}
