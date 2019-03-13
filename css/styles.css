@@ -88,6 +88,10 @@ html {
   width: 100%;
   padding: 40px;
 }
+.works {
+  background: url(../images/worldmap.png) no-repeat center top;
+  background-size: 100%;
+}
 .works h2 {
   font-weight: 700;
   text-transform: uppercase;
@@ -124,6 +128,6 @@ html {
 }
 @media screen and (max-width: 550px) {
   .main h1 {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
